@@ -12,7 +12,7 @@ function Post({ post }) {
   const likeHandler=(e)=>{
     setLike(isliked ? like-1 : like+1)
     setIsLiked(!isliked)
-  };
+  };;
 
   return (
     <div className="Post">
